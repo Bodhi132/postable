@@ -2,7 +2,6 @@
 import React from 'react'
 import { useState } from 'react';
 import { motion } from "framer-motion";
-import { aspekta } from "../layout";
 import { LuClipboardList } from "react-icons/lu";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { FaXTwitter } from "react-icons/fa6";
@@ -16,7 +15,7 @@ const Header = () => {
 
     return (
         <div className="mx-auto mt-8 flex w-full max-w-6xl flex-col gap-8 px-4 py-7 text-center md:mt-10 md:py-23 xl:pe-4 xl:ps-0">
-            <div className={`mx-auto w-full max-w-5xl text-balance px-8 text-center text-[30px] font-bold leading-[32px] tracking-[-1.4px] text-[#252424] md:px-0 md:text-[80px] md:leading-[80px] ${aspekta.className}`}>
+            <div className={`mx-auto w-full max-w-5xl text-balance px-8 text-center text-[30px] font-bold leading-[32px] tracking-[-1.4px] text-[#252424] md:px-0 md:text-[80px] md:leading-[80px] font-aspekta`}>
                 Convert
                 <div className="relative inline-block">
                     Tweets
@@ -32,7 +31,7 @@ const Header = () => {
                 </div>
                 into Engaging Social Media Posts, Instantly!
             </div>
-            <p className={`mx-auto max-w-72 text-balance px-8 text-md font-medium text-neutral-900 sm:block md:mt-4 md:max-w-fit md:text-2xl ${aspekta.className}`}>Paste your tweet link below to get started for FREE
+            <p className={`mx-auto max-w-72 text-balance px-8 text-md font-medium text-neutral-900 sm:block md:mt-4 md:max-w-fit md:text-2xl font-aspekta`}>Paste your tweet link below to get started for FREE
             </p>
             <div className="md:pt-4">
                 <div className="mx-auto max-w-sm md:max-w-xl items-center gap-1 rounded-2xl border-[1.5px] border-neutral-50 bg-white pl-5 pr-3 shadow-input-container focus-within:border-neutral-200 sm:flex lg:max-w-3xl shadow-lg">

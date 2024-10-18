@@ -4,7 +4,6 @@ import Image, { StaticImageData } from 'next/image'
 import influencers from '../../../public/influencers.webp'
 import individuals from '../../../public/individuals.webp'
 import businesses from '../../../public/businesses.webp'
-import { aspekta } from '../layout'
 
 interface Solution {
     id: number
@@ -55,7 +54,7 @@ const Solutions = () => {
     return (
         <div className='w-full flex md:flex-row flex-col px-4 md:justify-center'>
             <div>
-                <h2 className={`max-w-sm text-2xl font-medium tracking-[-0.2px] md:text-[40px] md:leading-[42px] md:tracking-[-1px] ${aspekta.className}`}>One Solution for All!</h2>
+                <h2 className={`max-w-sm text-2xl font-medium tracking-[-0.2px] md:text-[40px] md:leading-[42px] md:tracking-[-1px] font-aspekta`}>One Solution for All!</h2>
                 <p className='mt-1 max-w-80 text-xs font-medium leading-[20px] text-neutral-700 md:mt-4 md:max-w-full md:text-2xl md:text-neutral-950'>Postable helps everyone to share their thoughts across multiple platforms</p>
                 <div className='md:md-10 mt-6 bg-[hsl(0,0,95%)] md:w-fit w-full flex rounded-2xl p-2 gap-2'>
                     {

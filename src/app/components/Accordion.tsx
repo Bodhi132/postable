@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
-import { aspekta } from "../layout";
 
 interface AccordionProps {
   title: string;
@@ -11,7 +10,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className={`w-full md:ms-auto md:max-w-xl ${aspekta.className}`}>
+    <div className={`w-full md:ms-auto md:max-w-xl font-aspekta`}>
       <div className="border-b">
         <div className="flex">
         <button

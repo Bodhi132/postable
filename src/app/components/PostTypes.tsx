@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import { useState,useEffect } from 'react';
-import { aspekta } from '../layout'
 import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -74,7 +73,7 @@ const PostTypes = () => {
       <div className="bg-section-background bg-no-repeat mx-auto max-w-full w-fit bg-cover rounded-[16px] sm:rounded-[32px] 
        md:rounded-[64px] pt-8 lg:pt-12 md:px-12 lg:px-24 ">
         <header className='px-4 sm:px-8 md:px-12 text-center'>
-          <h1 className={`${aspekta.className} font-[850] text-center text-white text-2xl sm:text-3xl md:text-5xl lg:text-6xl md:leading-[48px] text-balance`}>
+          <h1 className={` font-aspekta font-[850] text-center text-white text-2xl sm:text-3xl md:text-5xl lg:text-6xl md:leading-[48px] text-balance`}>
             Share Your Voice Beyond Just a Tweet
           </h1>
           <p className='mx-auto my-4 max-w-xs text-balance text-center text-md font-normal leading-[18px] text-white sm:my-5 sm:max-w-sm md:my-8 md:max-w-xl md:text-base lg:my-12 lg:text-lg'>

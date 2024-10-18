@@ -5,7 +5,6 @@ import Image from 'next/image'
 import step1 from '../../../public/step1.webp'
 import step2 from '../../../public/step2.webp'
 import step3 from '../../../public/step3.webp'
-import { aspekta } from '../layout'
 import { StaticImageData } from 'next/image'
 
 interface StepsProps {
@@ -40,7 +39,7 @@ const Steps = () => {
 
     return (
         <div className='mx-auto flex h-fit w-full max-w-6xl flex-col gap-3.5 py-12 md:gap-8 md:py-24'>
-            <h1 className={`${aspekta.className} px-4 text-2xl font-medium xl:pe-4 xl:ps-0 tracking-[-0.2px] text-neutral-800 md:text-[40px] md:leading-[42px] md:tracking-[-1px]`}>How it works?</h1>
+            <h1 className={` font-aspekta px-4 text-2xl font-medium xl:pe-4 xl:ps-0 tracking-[-0.2px] text-neutral-800 md:text-[40px] md:leading-[42px] md:tracking-[-1px]`}>How it works?</h1>
             <div className='flex gap-4 overflow-y-visible overflow-x-scroll px-4 pb-4 md:overflow-x-visible lg:pb-4 lg:pe-4 lg:ps-0'>
                 {steps.map((step, index) => (
                     <motion.div
