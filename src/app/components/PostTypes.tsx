@@ -6,7 +6,6 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { IconType } from "react-icons";
-import { button } from 'framer-motion/client';
 import Image from 'next/image';
 import smallLogo from '../../../public/logoSmall.jpg'
 import { RiVerifiedBadgeFill } from 'react-icons/ri';

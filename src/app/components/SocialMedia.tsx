@@ -59,7 +59,7 @@ const SocialMedia = () => {
                 </div>
                 <div className='flex flex-col gap-4 md:flex-row'>
                     <p className='max-w-xl leading-[20px] text-neutral-700 md:text-balance md:text-md'>
-                        We've meticulously designed each template to meet the specific guidelines and format requirements of all social media platforms.
+                        We&apos;ve meticulously designed each template to meet the specific guidelines and format requirements of all social media platforms.
                         By preserving safe zones and adhering to platform standards, we ensure that your posts will always be visually striking, no matter where you share them.
                     </p>
                     <ul className='flex flex-row gap-4 md:flex-col md:gap-1.5'>
