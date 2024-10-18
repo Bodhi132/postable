@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { motion } from "framer-motion";
-import { aspekta, inter } from "../layout";
+import { aspekta } from "../layout";
 import { LuClipboardList } from "react-icons/lu";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { FaXTwitter } from "react-icons/fa6";
@@ -32,7 +32,7 @@ const Header = () => {
                 </div>
                 into Engaging Social Media Posts, Instantly!
             </div>
-            <p className={`mx-auto max-w-72 text-balance px-8 text-md font-medium text-neutral-900 sm:block md:mt-4 md:max-w-fit md:text-2xl ${inter.className}`}>Paste your tweet link below to get started for FREE
+            <p className={`mx-auto max-w-72 text-balance px-8 text-md font-medium text-neutral-900 sm:block md:mt-4 md:max-w-fit md:text-2xl ${aspekta.className}`}>Paste your tweet link below to get started for FREE
             </p>
             <div className="md:pt-4">
                 <div className="mx-auto max-w-sm md:max-w-xl items-center gap-1 rounded-2xl border-[1.5px] border-neutral-50 bg-white pl-5 pr-3 shadow-input-container focus-within:border-neutral-200 sm:flex lg:max-w-3xl shadow-lg">

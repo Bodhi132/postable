@@ -17,12 +17,12 @@ const geistMono = localFont({
 export const aspekta = localFont({
   src: "./fonts/AspektaVF.woff2",
   variable: "--font-aspekta",
-  weight: "100 900", // Adjust the weight range as per your font file
+  weight: "100 900", 
 });
-export const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-})
+// export const inter = Inter({
+//   subsets: ['latin'],
+//   display: 'swap',
+// })
 
 
 export default function RootLayout({
