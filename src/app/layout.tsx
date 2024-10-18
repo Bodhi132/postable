@@ -13,11 +13,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const aspekta = localFont({
-  src: "./fonts/AspektaVF.woff2",
-  variable: "--font-aspekta",
-  weight: "100 900", 
-});
 // export const inter = Inter({
 //   subsets: ['latin'],
 //   display: 'swap',
@@ -32,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${aspekta.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
