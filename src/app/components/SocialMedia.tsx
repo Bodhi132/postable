@@ -36,7 +36,11 @@ const socialMediaConfigs = [
 ];
 
 const SocialMedia = () => {
-  const refs = socialMediaConfigs.map(() => useRef(null));
+  const linkedInRef = useRef(null);
+  const instagramStoryRef = useRef(null);
+  const facebookPostRef = useRef(null);
+  const instagramPostRef = useRef(null); 
+  const refs = [linkedInRef, instagramStoryRef, facebookPostRef, instagramPostRef];
   const controls = socialMediaConfigs.map(() => useAnimation());
   const views = refs.map(ref => useInView(ref, { once: true }));
 
