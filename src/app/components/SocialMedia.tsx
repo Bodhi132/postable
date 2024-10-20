@@ -40,9 +40,17 @@ const SocialMedia = () => {
   const instagramStoryRef = useRef(null);
   const facebookPostRef = useRef(null);
   const instagramPostRef = useRef(null); 
+  const linkedInControls = useAnimation();
+  const instagramStoryControls = useAnimation();
+  const facebookPostControls = useAnimation();
+  const instagramPostControls = useAnimation();
+  const linkedInInView = useInView(linkedInRef, { once: true });
+  const instagramStoryInView = useInView(instagramStoryRef, { once: true });
+  const facebookPostInView = useInView(facebookPostRef, { once: true });
+  const instagramPostInView = useInView(instagramPostRef, { once: true });
   const refs = [linkedInRef, instagramStoryRef, facebookPostRef, instagramPostRef];
-  const controls = socialMediaConfigs.map(() => useAnimation());
-  const views = refs.map(ref => useInView(ref, { once: true }));
+  const controls = [linkedInControls, instagramStoryControls, facebookPostControls, instagramPostControls];
+  const views = [linkedInInView, instagramStoryInView, facebookPostInView, instagramPostInView];
 
   useEffect(() => {
     views.forEach((view, index) => {
